@@ -1,0 +1,93 @@
+:root {
+    --visota: 20px;
+}
+
+@font-face {
+    font-family: RobotoMono;
+    src: url(fonts/Roboto_Mono/RobotoMono-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url(fonts/Montserrat/Montserrat-Light.ttf);
+}
+
+@font-face {
+    font-family: SF;
+    src: url(fonts/San\ Francisco\ Mono/);
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(fonts/Roboto/);
+}
+
+body {
+    background: -webkit-linear-gradient(90deg,#000000,#1a0a52,#012f7b,#7a219e,#e292fe); /* Chrome 10-25, Safari 5.1-6 */ background: linear-gradient(90deg,#000000,#1a0a52,#012f7b,#7a219e,#e292fe); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    margin: 0;
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: 400;
+    color: white;
+}
+
+header {
+    border-bottom: dashed 2px;
+    font-family: Roboto;
+    text-align: center;
+}
+
+header img {
+    width: 50px;
+    height: 50px;
+    font-size: 0.8em;
+    justify-content: center;
+    align-items: left;
+}
+
+h1 h2 h3 {
+    font-family: Montserrat;
+    text-align: center;
+}
+
+h1 {
+    font-size: 1.5em;
+}
+
+h2 {
+    font-size: 1em;
+    text-align: left;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+section {
+    width: 31%;
+    height: 580px;
+    font-family: Montserrat;
+    text-align: left;
+    color: white;
+    background: -webkit-linear-gradient(90deg,#6a7c85,#2f4147); /* Chrome 10-25, Safari 5.1-6 */ background: linear-gradient(90deg,#6a7c85,#2f4147);
+    margin: 10px;
+    border-radius: 24px;
+} 
+
+section img {
+    max-height: 20%;
+}
+
+.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    height: 1680px;
+    width: 1180px;
+}
+
+footer {  
+    text-align: center;
+    text-align: 0.7em;
+    color: white;
+    width: 100%;
+}

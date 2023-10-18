@@ -1,0 +1,61 @@
+@font-face {
+    font-family: RobotoMono;
+    src: url(fonts/Roboto_Mono/RobotoMono-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url(fonts/Montserrat/Montserrat-Light.ttf);
+}
+
+@font-face {
+    font-family: SF;
+    src: url(fonts/San\ Francisco\ Mono/);
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(fonts/Roboto/);
+}
+
+header{
+    border-bottom: dashed 2px;
+    font-family: Roboto;
+    text-align: center;
+}
+
+header img{
+    width: 50px;
+    height: 50px;
+    font-size: 0.8em;
+    justify-content: center;
+    align-items: left;
+}
+
+footer{
+    text-align: center;
+    text-align: 0.7em;
+    color: white;
+    width: 100%;
+}
+
+footer img{
+    width: 50px;
+    height: 50px;
+}
+
+body{
+    font-family: Roboto;
+    text-align: center;
+    color: white;
+    font-size: 0.85em;
+    background-color: #6d757d;
+    line-height: 1.7;
+}
+p{
+    line-height: normal;
+    margin: 16px;
+    padding: 0;
+    font-family: SF;
+    font-size: 0.85em;
+}
